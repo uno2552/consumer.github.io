@@ -3,13 +3,13 @@
 window.onload = function() {
   // Your web app's Firebase configuration
   var firebaseConfig = {
-    apiKey: "AIzaSyB_SUzDyrG4n3tPrPfbBp4bfZCmpHaLzaU",
-    authDomain: "consumer-demand-explorer.firebaseapp.com",
-    databaseURL: "https://consumer-demand-explorer-default-rtdb.asia-southeast1.firebasedatabase.app",
-    projectId: "consumer-demand-explorer",
-    storageBucket: "consumer-demand-explorer.appspot.com",
-    messagingSenderId: "86368980735",
-    appId: "1:86368980735:web:ee88e2476f81f1995b46ca"
+    apiKey: "AIzaSyBf5EA6EGLAbztXAhq-13srxSYcYHOuCnw",
+    authDomain: "demand-18409.firebaseapp.com",
+    projectId: "demand-18409",
+    storageBucket: "demand-18409.appspot.com",
+    messagingSenderId: "935389606465",
+    appId: "1:935389606465:web:339a035be9bd06b90a8cc0",
+    measurementId: "G-NMP97MYQ9V"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
