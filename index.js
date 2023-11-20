@@ -2,7 +2,7 @@
 // So we don't have ridiculous errors.
 window.onload = function() {
   // Your web app's Firebase configuration
- const firebaseConfig = {
+  var firebaseConfig = {
     apiKey: "AIzaSyBf5EA6EGLAbztXAhq-13srxSYcYHOuCnw",
     authDomain: "demand-18409.firebaseapp.com",
     projectId: "demand-18409",
@@ -11,10 +11,8 @@ window.onload = function() {
     appId: "1:935389606465:web:339a035be9bd06b90a8cc0",
     measurementId: "G-NMP97MYQ9V"
   };
-
   // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
+  firebase.initializeApp(firebaseConfig);
   // This is very IMPORTANT!! We're going to use "db" a lot.
   var db = firebase.database()
   // We're going to use oBjEcT OrIeNtEd PrOgRaMmInG. Lol
