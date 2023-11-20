@@ -9,7 +9,7 @@ window.onload = function() {
     projectId: "consumer-demand-explorer",
     storageBucket: "consumer-demand-explorer.appspot.com",
     messagingSenderId: "86368980735",
-    appId: "1:86368980735:web:ee88e2476f81f1995b46ca"
+    appId: "1:86368980735:web:c0a6f4bb2f2beeb45b46ca"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
